@@ -3,13 +3,11 @@ import time
 
 #This section creates a list of all the possible replies and prints out an ASCII 8ball with a pause between each line. This is to indicate that the code has started running.
 answers = ["It is certain", "It is decidely so", "Without a doubt", "Yes Definitely", "You may rely on it", "As I see it, yes", "Most Likely", "Outlook good", "Yes", "Signs point to yes", "Reply hazy, try again", "Ask again later", "Better not tell you now", "Cannot Predict now", "Concentrate and ask again", "Don't count on it", "My reply is no", "My sources say no", "Outlook not so good", "Very Doubtful"]
-print("Welcom to the 8-ball designed by Pj Metz")
-
 print("  .-'''-.")
 time.sleep(.5)
 print(" /   _   \\")
 time.sleep(.5)
-print(" |  (8)  |")
+print(" |  (9)  |")
 time.sleep(.5)
 print(" \   ^   /")
 time.sleep(.5)
@@ -18,7 +16,7 @@ print("  '-...-'")
 #The main function of the 8ball. 
 def ask_the_ball():
     #asks the user to input a name and questions. .upper() turns the string into all caps. 
-    print("Hello! Welcome to Pj's Magic 8 ball")
+    print("Hello! Welcome to Pj's Magic 9 ball")
     name = input("What is your name? ")
     #capitalizes the name
     cap_name = name.upper()
