@@ -22,9 +22,8 @@ def ask_the_ball():
 
     print(f"{cap_name}, you asked '{cap_question}'.")
     print("Pondering the Orb")
-    time.sleep(random.randint(1, 5))
     print("🔮 ✨ 🔮")
-    time.sleep(1)
+    time.sleep(random.randint(1, 5))
     print(f"{answer}")
     ask_again = input("Would you like to ask again? yes/no ")
     play_again(ask_again)
